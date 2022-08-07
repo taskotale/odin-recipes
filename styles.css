@@ -2,14 +2,29 @@ body,
 p {text-align: center;
 background-color: royalblue;
 color: bisque;
-font-family: Arial, Helvetica, sans-serif;}
-.perfect {color: royalblue;}
-.caprese {color: rgb(14, 192, 14)}
+font-family: Arial, Helvetica, sans-serif;
+box-sizing: border-box;}
+.perfect {color: rgb(38, 139, 65);}
+.caprese {color: rgb(14, 192, 14);}
 h1 {background-color: antiquewhite;}
 .chicken {color: brown;}
 .bruschetta {color: red;}
 ul,
 ol {text-align: left;}
-.questions {font-size: 25px;}
+.questions {font-size: 25px;
+margin: 50px;}
 div .one {background-color: antiquewhite;}
-
+#images 
+{margin: 50px;}
+.intro {margin-left: 200px;
+margin-right: 200px;}
+.perfect,
+h1.bruschetta,
+h1.caprese,
+h1.chicken {margin-left: 200px;
+    margin-right: 200px;
+padding: 50px;
+border: 10px solid;}
+ul,
+ol {margin: 50px;
+padding: 50px;}
